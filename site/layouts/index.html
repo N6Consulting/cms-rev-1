@@ -2,14 +2,10 @@
 
 {{ partial "nav" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" "Great coffee with a conscience" "subtitle" "Support sustainable farming while enjoying a cup") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/home/jumbotron.jpg" "title" "Software Meets the Real World" ) }}
 
-{{ partial "short-text" (dict "heading" "Why Kaldi?" "text" "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities.")}}
+{{ partial "2-up" (dict "heading" "What we do" "description" "N6 Consulting helps you build software you can live with. Systems that run in production and deliver value, day in and day out. We can support you  with architecture reviews, design and training. Or if the worst has already happened, we do application firefighting to get you up and running with a stable, fast, and robust system." "headline1" "Architecture Training" "svg1" "img/home/training.jpg" "text1" "We provide onsite workshops and public training classes, aimed at developers and architects who want to build better systems. If your needs are more specific, we can customize a curriculum for your situation." "headline2" "Application Firefighters" "svg2" "/img/home/consulting.jpg" "text2" "Our consultants are expert firefighters. Whether you're having trouble getting across the finish line, or you've already deployed a system that isn't performing the way you'd like, we'll help you deliver and achieve real value." "buttonText" "Let Us Help" "buttonLink" "/contact"  ) }}
 
-{{ partial "2-up" (dict "heading" "What we offer" "description" "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone." "svg1" "img/illustrations/coffee.svg" "text1" "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability." "svg2" "/img/illustrations/coffee-gear.svg" "text2" "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop." "buttonText" "See all products" "buttonLink" "/products"  ) }}
-
-{{ partial "text-and-image" (dict "heading" "Our values" "text" "Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature." "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+{{ partial "text-and-image" (dict "heading" "Immutable Values" "text" "Software is created by and for people. We believe respect and dignity for every person. We support stakeholders, users, and inhabitants of our systems. Users should be at ease that their data is protected. Operators and developers should sleep soundly through the night." "imageUrl" "img/home/immutable-values.jpg") }}
 
 {{ partial "footer" . }}
