@@ -6,6 +6,20 @@ CMS](https://github.com/netlify/netlify-cms) "Kaldi" template.
 Site is built with [Victor
 Hugo](https://github.com/netlify/victor-hugo)
 
+
+## About the Forms
+
+### Contact Us
+
+Submitted via Netlify.
+
+Emails to michael.nygard@n6consulting.com
+
+### Mailing list
+
+Connected to Zapier, then to MailChimp. List is "N6Consulting Mailing List"
+
+
 ## Getting started
 
 ## Local Development
