@@ -1,9 +1,13 @@
 ---
 title: Production-Ready Software
 type: workshop
-page: /workshops/production-ready-software.html
 greeting: Schedule a Workshop
-image: /img/workshops/jumbotron.jpg
+image: /img/workshop/jumbotron.jpg
+description: >-
+        Learn to build services that survive in production. Understand
+        architecture and design patterns that produce high availability
+        in distributed, multithreaded systems. Learn to avoid
+        antipatterns that sabotage availability and capacity.
 ---
 # Description
 

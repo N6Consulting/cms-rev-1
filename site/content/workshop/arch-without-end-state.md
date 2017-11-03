@@ -1,9 +1,14 @@
 ---
 title: Architecture Without an End State
 type: Workshop
-page: /workshops/arch-without-end-state.html
 greeting: Schedule a Workshop
-image: /img/workshops/jumbotron.jpg
+image: /img/workshop/jumbotron.jpg
+description: >-
+        Learn how to
+        design and architect systems that admit change, bending and
+        flexing through time. Use a blend of information architecture,
+        technical architecture, and process change. Transform rigid
+        systems into maneuverable architecture.
 ---
 # Description
 

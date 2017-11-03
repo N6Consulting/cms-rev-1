@@ -1,11 +1,13 @@
 ---
 title: Systems Thinking and Methods
-type: Workshop
-page: /workshops/systems-thinking.html
 greeting: Schedule a Workshop
-image: /img/workshops/jumbotron.jpg
+image: /img/workshop/jumbotron.jpg
+description: >-
+        Learn to analyze and influence any system. Understand
+        sociotechnical systems using lean thinking, cybernetics,
+        complex adaptive systems, and human factors. See how systems
+        work, how to optimize them, and the many ways they can fail.
 ---
-# Description
 
 In this full-day workshop, you will learn how to analyze and influence any system. (There's no such thing as "control!") We will take a sociotechnical view of systems that draws on lean thinking, cybernetics, complex adaptive systems, and human factors. Using these perspectives, we will look at how systems work, how you can optimize them, and the many ways they can fail.
 

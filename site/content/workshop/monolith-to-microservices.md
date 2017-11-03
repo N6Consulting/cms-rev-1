@@ -1,11 +1,13 @@
 ---
 title: Monolith to Microservices
-type: Workshop
-page: /workshops/monolith-to-microservices.html
 greeting: Schedule a Workshop
-image: /img/workshops/jumbotron.jpg
+image: /img/workshop/jumbotron.jpg
+description: >-
+        Break a real monolith into microservices. Deliver continuously
+        while keeping the application available. Write real code and
+        deploy to cloud infrastructure. Build monitoring, debugging,
+        and performance analysis tools into the system.
 ---
-# Description
 
 Most companies that set out to build microservices have no idea how to
 design or implement them. Yet somehow, developers are expected to

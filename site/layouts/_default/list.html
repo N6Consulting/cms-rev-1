@@ -1,16 +1,31 @@
 {{ partial "head" . }}
 {{ partial "nav" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-<div class="mw7 center">
+<div class="mw8 center ph4 pv4">
+  {{ .Content }}
+</div>
+
+<div class="mw8 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range .Data.Pages }}
-          <div class="w-50-ns ph1-ns flex">
-            {{ .Render "li"}}
-          </div>
-      {{ end }}
+    {{ range .Data.Pages }}
+    <div class="w-50-ns ph1-ns flex">
+      {{ .Render "li"}}
+    </div>
+    {{ end }}
   </ul>
 </div>
+
+{{ with .Params.customization }}
+<div class="mw9 center bg-off-white">
+  <div class="mw7 ph3 mb3 center bg-grey-1">
+    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
+    <p>{{ .description }}</p>
+
+    {{ partial "contact-form" . }}
+  </div>
+</div>
+{{ end }}
 
 {{ partial "footer" . }}
