@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+{{ partial "nav" . }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<div class="mw7 center ph3 pv4">
+  <div class="cms mw7">
+    <p>{{ .Description }}</p>
+    {{ .Content }}
+  </div>
+</div>
+
+
+<div class="mw9 center bg-off-white">
+  <div class="mw7 ph3 mb3 center bg-grey-1">
+    {{ partial "contact-form" . }}
+  </div>
+</div>
+
+{{ partial "footer" . }}

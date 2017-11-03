@@ -2,13 +2,13 @@
 
 {{ partial "nav" . }}
 
+{{ partial "jumbotron" (dict "imageUrl" .Params.image) }}
+
 <div class="ph3 bg-off-white">
   <div class="center mw6 pv3">
 
     <p>
-      We’d love to get hear from you. What keeps you up at night... literally? We
-      love a tough challenge. Point us toward your application crime scene and
-      we'll start digging for clues.
+      {{ .Params.description }}
     </p>
 
     {{ partial "contact-form" . }}
