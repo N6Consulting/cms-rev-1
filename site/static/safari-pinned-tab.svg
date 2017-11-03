@@ -1,28 +1,143 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="700.000000pt" height="700.000000pt" viewBox="0 0 700.000000 700.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,700.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M387 5763 c-1 -1 -24 -3 -52 -4 -155 -9 -269 -96 -319 -244 -15 -46
--16 -145 -13 -1225 2 -646 6 -1188 10 -1205 4 -16 12 -59 18 -95 24 -136 69
--300 112 -405 180 -439 480 -792 869 -1024 275 -164 565 -258 888 -288 97 -9
-1416 -9 1535 0 119 9 189 19 272 38 27 6 55 12 63 14 164 34 384 123 565 228
-177 103 448 336 555 477 19 25 37 47 40 50 17 15 104 148 151 230 97 169 175
-359 209 510 7 30 16 65 21 77 l8 22 59 -23 c84 -33 149 -48 272 -63 119 -15
-341 -3 420 22 10 3 28 8 41 10 82 16 294 118 387 188 79 58 181 155 228 213
-59 75 151 222 159 254 1 3 11 26 23 52 63 140 92 307 87 498 -2 69 -6 136 -9
-150 -3 14 -9 41 -12 60 -20 119 -96 297 -182 425 -143 212 -311 346 -572 459
--44 19 -171 53 -225 60 -22 3 -60 8 -85 12 -140 19 -350 -5 -497 -56 l-53 -18
--1 26 c0 15 -1 90 -3 167 -2 126 -5 146 -27 195 -33 71 -71 115 -134 155 -54
-34 -77 42 -141 51 -35 5 -4663 12 -4667 7z m5552 -1236 c80 -23 186 -92 241
--155 210 -242 147 -625 -130 -786 -198 -115 -453 -86 -614 71 -83 80 -79 64
--78 341 0 136 1 267 1 291 1 40 6 49 66 107 73 71 119 99 215 130 86 28 209
-28 299 1z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="350"
+   viewBox="0 0 92.604164 92.604165"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="safari-pinned-tab.svg"
+   inkscape:export-filename="/home/mtnygard/work/n6-website/site/static/img/logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2787235"
+     inkscape:cx="349.3009"
+     inkscape:cy="116.46167"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="3373"
+     inkscape:window-height="1385"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:pagecheckerboard="false">
+    <sodipodi:guide
+       position="-6.9504572,16.25298"
+       orientation="0,1"
+       id="guide3719"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="31.461372,39.92373"
+       orientation="0,1"
+       id="guide3721"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3790"
+       originx="19.129899"
+       originy="-250.22023" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#ff8f2a;fill-opacity:1;stroke:#ff9c43;stroke-width:0.46499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5173"
+       width="92.489708"
+       height="91.868965"
+       x="0.20691206"
+       y="0.3213802"
+       ry="14.530558" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(19.1299,45.824401)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.07518387px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.56328321;"
+       x="2.3975053"
+       y="18.69334"
+       id="text3705"
+       transform="scale(0.79890523,1.2517129)"><tspan
+         sodipodi:role="line"
+         id="tspan3703"
+         x="2.3975053"
+         y="18.69334"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.07518387px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre';fill:#ffffff;fill-opacity:1;stroke-width:0.56328321;">ℕ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.89176941px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.49774522;"
+       x="47.537811"
+       y="-17.331718"
+       id="text3709"
+       transform="scale(0.90409683,1.1060762)"><tspan
+         sodipodi:role="line"
+         id="tspan3707"
+         x="47.537811"
+         y="-17.331718"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.89176941px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.49774522;">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.78353882px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.49774522;"
+       x="-49.255848"
+       y="16.977179"
+       id="text3713"
+       transform="scale(0.90409683,1.1060762)"><tspan
+         sodipodi:role="line"
+         id="tspan3711"
+         x="-49.255848"
+         y="16.977179"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.49774522;">〈</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.78353882px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.49774522;"
+       x="61.581322"
+       y="16.977179"
+       id="text3717"
+       transform="scale(0.90409683,1.1060762)"><tspan
+         sodipodi:role="line"
+         id="tspan3715"
+         x="61.581322"
+         y="16.977179"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.78353882px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.49774522;">〉</tspan></text>
+  </g>
 </svg>
