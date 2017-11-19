@@ -1,7 +1,8 @@
 ---
 title: Systems Thinking and Methods
-greeting: Schedule a Workshop
+greeting: Schedule a Workshop at Your Company
 image: /img/workshop/jumbotron.jpg
+origin: systems_thinking_and_methods
 description: >-
         Learn to analyze and influence any system. Understand
         sociotechnical systems using lean thinking, cybernetics,

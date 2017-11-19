@@ -1,8 +1,9 @@
 ---
 title: Production-Ready Software
 type: workshop
-greeting: Schedule a Workshop
+greeting: Schedule a Workshop at Your Company
 image: /img/workshop/jumbotron.jpg
+origin: production_ready_software
 description: >-
         Learn to build services that survive in production. Understand
         architecture and design patterns that produce high availability

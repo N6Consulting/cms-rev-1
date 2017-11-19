@@ -1,8 +1,9 @@
 ---
 title: Architecture Without an End State
 type: Workshop
-greeting: Schedule a Workshop
+greeting: Schedule a Workshop at Your Company
 image: /img/workshop/jumbotron.jpg
+origin: arch_without_end_state
 description: >-
         Learn how to
         design and architect systems that admit change, bending and

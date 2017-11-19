@@ -1,7 +1,8 @@
 ---
 title: Monolith to Microservices
-greeting: Schedule a Workshop
+greeting: Schedule a Workshop at Your Company
 image: /img/workshop/jumbotron.jpg
+origin: monolith_to_microservices
 description: >-
         Break a real monolith into microservices. Deliver continuously
         while keeping the application available. Write real code and

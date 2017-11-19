@@ -8,6 +8,8 @@ intro:
   description: >
 customization:
   heading: Workshops Customized to Your Circumstances
+  Params:
+    origin: workshops
   description: >
     Any of our workshops can be customized to meet your specific
     situation. Drop us a line and we can discuss your staff, needs,
