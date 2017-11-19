@@ -1,9 +1,10 @@
 ---
 title: Workshops We Offer
 image: /img/workshop/jumbotron.jpg
+ogImage: /og-image.jpg
 heading: Workshops We Offer
-description: >-
-
+description: >
+    Workshops aimed at developers and architects, covering production ready software, microservices, and cloud-native systems.
 intro:
   description: >
 customization:

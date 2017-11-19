@@ -20,11 +20,20 @@
     <meta name="theme-color" content="#fff" />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="business.business" />
-      <meta property="og:title" content="N6 Consulting | Expert Architects and Application Firefighters" />
-      <meta property="og:url" content="/" />
-      <meta property="og:image" content="/og-image.jpg" />
-
+    <meta property="og:type"        content="business.business" />
+    <meta property="og:title"       content="{{ .Title }} | N6 Consulting" />
+    <meta property="og:description" content="{{if .Description}}{{.Description}}{{else}}Architecture consulting and training{{end}}" />
+    <meta property="og:url"         content="https://www.n6consulting.com{{if .URL}}{{.URL}}{{end}}" />
+    {{ with .Params.ogImage }}
+      <meta property="og:image"       content="https://www.n6consulting.com{{ . }}" >
+    {{else}}
+      <meta property="og:image"       content="https://www.n6consulting.com/og-image.jpg" >    
+    {{end}}
+    <meta property="business:contact_data:email"   content="info@n6consulting.com" />
+    <meta property="business:contact_data:website" content="https://www.n6consulting.com" />
+    
   </head>
 
   <body class="sans-serif">
+
+
