@@ -11,6 +11,15 @@ description: >-
         technical architecture, and process change. Transform rigid
         systems into maneuverable architecture.
 ---
+# Summary
+
+Learn how to build systems that evolve and flex in small steps over
+time. Design software architecture that adapts to stresses from
+business and technology change. Stop aiming for the poster on the wall
+and forget about the three-year plan to build the "end state." Build
+systems from simpler pieces with simpler interfaces that can be
+combined and recombined to deliver features.
+
 # Description
 
 Architecture plans in enterprises tend to resemble late-night infomercials. First, you see a person or system that seems incapable of survival—a situation that can be immediately rectified if you just buy into the product. (One popular infomercial shows incompetent people mangling tomatoes transitioning into Ginsu-wielding sous chefs; the architecture pitch starts with hideous complexity then moves to clean orthogonal box diagrams.) Operators are always standing by.
