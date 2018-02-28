@@ -40,11 +40,3 @@ Developers moving to microservices.
 * Decouple services, and keep them decoupled
 * Testing tools and strategies
 * Uniting microservices in GUIs and APIs
-
-# Public Classes
-
-[Registration is open](https://www.eventbrite.com/e/monolith-to-microservices-tickets-39850353480) for this workshop.
-
-Dates: March 12 - 16, 2018
-
-Location: Ft. Walton Beach, FL
