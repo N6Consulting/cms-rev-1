@@ -40,3 +40,40 @@ Developers moving to microservices.
 * Decouple services, and keep them decoupled
 * Testing tools and strategies
 * Uniting microservices in GUIs and APIs
+
+# Syllabus
+
+* Deployment
+* Automated Deployment
+* Monitoring
+* Continuous Integration
+* Continuous Deployment
+* REST API design
+* Bespoke Services
+* Off-the-Shelf Services
+* Event Stream/Event Sourcing
+
+# Technology Stack
+
+During this class, we will use the following technologies.
+
+## Languages/Frameworks
+
+- Ruby on Rails
+- Java + Spring Boot
+- Go
+- JavaScript + NodeJS
+
+Students are not required to know all the languages. Starter code will
+be available.
+
+## Operations and Infrastructure
+
+- Terraform
+- Gitlab
+- AWS EC2
+- AWS RDS
+- AWS Cognito
+
+Students can read about Terraform in advance. Starter files will be
+available.
