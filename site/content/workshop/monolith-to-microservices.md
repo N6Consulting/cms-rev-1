@@ -74,6 +74,7 @@ be available.
 - AWS EC2
 - AWS RDS
 - AWS Cognito
+- Cloud-init
 
 Students can read about Terraform in advance. Starter files will be
 available.
