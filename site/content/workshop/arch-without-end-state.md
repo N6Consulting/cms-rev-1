@@ -4,6 +4,7 @@ type: Workshop
 greeting: Schedule a Workshop at Your Company
 image: /img/workshop/jumbotron.jpg
 origin: arch_without_end_state
+draft: true
 description: >-
         Learn how to
         design and architect systems that admit change, bending and

@@ -1,5 +1,5 @@
 ---
-title: Monolith to Microservices
+title: Monolith to Microservices - AWS and Terraform Edition
 greeting: Schedule a Workshop at Your Company
 image: /img/workshop/jumbotron.jpg
 origin: monolith_to_microservices
@@ -78,3 +78,9 @@ be available.
 
 Students can read about Terraform in advance. Starter files will be
 available.
+
+# Not quite what you're looking for?
+
+If you're interested in more application-level design and less infrastructure work, then you might like the [Kubernetes](/workshop/monolith-to-microservices-k8s/) edition of this class.
+
+Want to use Kotlin instead of Java? Or how about Azure instead of AWS? Maybe you're all about Go? [Contact us](/contact/) to discuss a customized version of this class to suit your company's needs.
