@@ -73,6 +73,7 @@ be available.
 - Docker
 - Kubernetes
 - Istio
+- Prometheus
 
 # Not quite what you're looking for?
 
