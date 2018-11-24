@@ -46,6 +46,8 @@ Developers moving to microservices.
 * Deployment
 * Automated Deployment
 * Monitoring
+* Tracing
+* Sidecars, Control plane, Data plane
 * Continuous Integration
 * Continuous Deployment
 * REST API design
