@@ -2,7 +2,7 @@ import gulp from "gulp";
 import cp from "child_process";
 import postcss from "gulp-postcss";
 import cssImport from "postcss-import";
-import postcssPresetEnv from "postcss-preset-env";
+import cssnext from "postcss-cssnext";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -10,18 +10,21 @@ import svgstore from "gulp-svgstore";
 import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
 import cssnano from "cssnano";
-import logger from "fancy-log";
-import PluginError from "plugin-error";
+import gutil from "gulp-util";
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
 const defaultArgs = ["-d", "../dist", "-s", "site"];
 
+if (process.env.DEBUG) {
+  defaultArgs.unshift("--debug")
+}
+
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
-      postcssPresetEnv(),
+      cssnext(),
       cssnano(),
     ]))
     .pipe(gulp.dest("./dist/css"))
@@ -32,8 +35,8 @@ gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
 
   webpack(myConfig, (err, stats) => {
-    if (err) throw new PluginError("webpack", err);
-    logger("[webpack]", stats.toString({
+    if (err) throw new gutil.PluginError("webpack", err);
+    gutil.log("[webpack]", stats.toString({
       colors: true,
       progress: true
     }));
@@ -75,17 +78,17 @@ function buildSite(cb, options) {
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
 
-gulp.task("build", gulp.series("css", "js", "hugo"));
-gulp.task("build-preview", gulp.series("css", "js", "hugo-preview"));
+gulp.task("build", ["css", "js", "hugo"]);
+gulp.task("build-preview", ["css", "js", "hugo-preview"]);
 
-gulp.task("server", gulp.series("hugo", "css", "js", "svg", () => {
+gulp.task("server", ["hugo", "css", "js", "svg"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
-  gulp.watch("./src/js/**/*.js", gulp.series("js"));
-  gulp.watch("./src/css/**/*.css", gulp.series("css"));
-  gulp.watch("./site/static/img/icons/*.svg", gulp.series("svg"));
-  gulp.watch("./site/**/*", gulp.series("hugo"));
-}));
+  gulp.watch("./src/js/**/*.js", ["js"]);
+  gulp.watch("./src/css/**/*.css", ["css"]);
+  gulp.watch("./site/static/img/icons/*.svg", ["svg"]);
+  gulp.watch("./site/**/*", ["hugo"]);
+});
