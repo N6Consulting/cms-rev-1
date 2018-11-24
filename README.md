@@ -68,3 +68,22 @@ results. Refer to an SVG via the `<use>` tag like so:
   <use xlink:href="#SVG-ID"></use>
 </svg>
 ```
+
+## TODO
+
+### Update deprecated NPM packages
+
+```
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated cryptiles@2.0.5: This version is no longer maintained. Please upgrade to the latest version.
+npm WARN deprecated boom@2.10.1: This version is no longer maintained. Please upgrade to the latest version.
+npm WARN deprecated hoek@2.16.3: This version is no longer maintained. Please upgrade to the latest version.
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+```
