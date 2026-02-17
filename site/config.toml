@@ -1,3 +1,6 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Expert Architects and Application Firefighters"
+
+[markup.goldmark.renderer]
+  unsafe = true

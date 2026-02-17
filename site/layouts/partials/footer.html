@@ -18,7 +18,10 @@
 
 {{ partial "svg" . }}
 
-<script src="/app.js"></script>
+{{ with resources.Get "js/app.js" }}
+  {{ $js := . | js.Build | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}
 
 </body>
 
