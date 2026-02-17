@@ -3,13 +3,14 @@
   <head>
 
     <title>{{ .Title }} | N6 Consulting</title>
-    <link rel="stylesheet" href="/css/main.css"/>
+    {{ $css := resources.Get "css/main.css" | postCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="https://www.n6consulting.com{{if .URL}}{{.URL}}{{end}}" rel="canonical"/>
+    <link href="https://www.n6consulting.com{{.RelPermalink}}" rel="canonical"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet" />
 
     <!-- Favicons -->
@@ -24,7 +25,7 @@
     <meta property="og:type"        content="business.business" />
     <meta property="og:title"       content="{{ .Title }} | N6 Consulting" />
     <meta property="og:description" content="{{if .Description}}{{.Description}}{{else}}Architecture consulting and training{{end}}" />
-    <meta property="og:url"         content="https://www.n6consulting.com{{if .URL}}{{.URL}}{{end}}" />
+    <meta property="og:url"         content="https://www.n6consulting.com{{.RelPermalink}}" />
     {{ with .Params.ogImage }}
       <meta property="og:image"       content="https://www.n6consulting.com{{ . }}" >
     {{else}}
